@@ -90,3 +90,39 @@ print(str.index('C'))
 
 # Use index to determine the position of the first occurrence of F in Coding For All.
 print(str.index('F'))
+
+# Use rfind to determine the position of the last occurrence of l in Coding For All People.
+print(str.rfind('l'))
+
+# Use index or find to find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+str = 'You cannot end a sentence with because because because is a conjunction'
+print(str.find('because')) 
+
+# Use rindex to find the position of the last occurrence of the word because in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+str = 'You cannot end a sentence with because because because is a conjunction'
+print(str.rfind('because')) 
+
+# Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+str = 'You cannot end a sentence with because because because is a conjunction'
+print(str[str.index('because') : str.rindex('because')+len('because')+1])
+
+# Does ''Coding For All' start with a substring Coding?
+str = 'Coding For All'
+print(str.startswith('Coding'))
+
+# Does 'Coding For All' end with a substring coding?
+str = 'Coding For All'
+print(str.endswith('Coding'))
+
+# '   Coding For All      '  , remove the left and right trailing spaces in the given string.
+str = '   Coding For All      '
+print(str.strip())
+
+# The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.
+lst = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+print(" ".join(lst))
+
+# Use the string formatting method to display the following:
+radius = 10
+area = 3.14 * radius ** 2
+print('The area of a circle with radius {} is {} meters square'.format(radius,area))

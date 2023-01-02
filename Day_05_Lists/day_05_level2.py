@@ -25,5 +25,6 @@ print('Average = {}'.format(avg))
 
 # Find the range of the ages (max minus min)
 ages.sort()
+
 print('Range = {}'.format(ages[len(ages)-1] - (ages[0])))
 

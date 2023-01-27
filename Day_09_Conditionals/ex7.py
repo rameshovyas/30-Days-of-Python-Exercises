@@ -3,7 +3,7 @@ person={
     'last_name': 'Yetayeh',
     'age': 250,
     'country': 'Finland',
-    'is_marred': True,
+    'is_married': True,
     'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
     'address': {
         'street': 'Space street',
@@ -38,3 +38,9 @@ if("skills" in person):
     print(msg)  
 else:
     print("No skills found")    
+
+
+# If the person is married and if he lives in Finland, print the information in the following format:
+if((person["is_married"] == True) and (person["country"] == "Finland")):
+    
+    print("%s %s lives in %s and is Married" % (person["first_name"], person["last_name"], person["country"]))

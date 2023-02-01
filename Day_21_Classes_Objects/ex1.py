@@ -22,9 +22,16 @@ class Statistics:
 
 
     def max(self):
-        print("max")
+        if(self.data):
+            return max(self.data)
+        return None
+
+
     def range(self):
-        print("range")
+        if(self.data):
+            return (self.max() - self.min())
+        return None
+
     def mean(self):
         print("mean")
     def median(self):
@@ -43,5 +50,5 @@ ages = [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 
 
 stat = Statistics(ages)
 
-print(stat.sum())
+print(stat.range())
 

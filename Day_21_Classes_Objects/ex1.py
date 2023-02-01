@@ -1,10 +1,26 @@
 class Statistics:
+    #constructor
+    def __init__(self, data):
+        self.data = data
+
     def count(self):
-        print("Count")
+        if(self.data):
+            return len(self.data)
+        return None
+
+
     def sum(self):
-        print("sum")
+        if(self.data):
+            return sum(self.data)
+        return None
+
+
     def min(self):
-        print("min")
+        if(self.data):
+            return min(self.data)
+        return None    
+
+
     def max(self):
         print("max")
     def range(self):
@@ -23,7 +39,9 @@ class Statistics:
         print("freq_dist")
         
         
+ages = [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26]
 
-stat = Statistics()
+stat = Statistics(ages)
 
-stat.freq_dist()
+print(stat.sum())
+

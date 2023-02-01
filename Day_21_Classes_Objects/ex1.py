@@ -1,3 +1,6 @@
+from collections import Counter
+import math
+
 class Statistics:
     #constructor
     def __init__(self, data):
@@ -51,25 +54,35 @@ class Statistics:
             else:
                 a = tmp_data[n // 2]
                 b = tmp_data[(n // 2) + 1]
-                return ((a+b)/2)
-                
-
+                return ((a+b)/2)              
+        return None
             
-
-
     def mode(self):
-        print("mode")
-    def std(self):
-        print("std")
+        c = Counter(self.data)
+        return[k for k, v in c.items() if v == c.most_common(1)[0][1]]
+    
     def var(self):
-        print("var")
+        mean = sum(self.data) / len(self.data)
+
+        # square each item after subtracting mean from it
+        squared = list(map(lambda x: (x-mean)**2, self.data))
+        
+        return sum(squared) / (len(self.data) - 1)
+
+
+    def std(self):
+        if(self.var()):
+            return(math.sqrt(self.var()))
+        return None
+
     def freq_dist(self):
         print("freq_dist")
         
         
 ages = [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26]
 
+lst = [1, 2, 3, 4, 5]
 stat = Statistics(ages)
 
-print(stat.median())
+print(stat.std())
 

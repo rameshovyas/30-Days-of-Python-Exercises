@@ -1,0 +1,73 @@
+{
+    "title": "BU Facts & Stats | Office of the President",
+    "facts-stats": {
+        "Research Expenditures": "$630.7M",
+        "Study Abroad Programs": "75+",
+        "Research Awards": "$531.2M"
+    },
+    "facts-categories": {
+        "Community": {
+            "Student Body": "36,729",
+            "Living Alumni": "414,500+",
+            "Total Employees": "10,468",
+            "Faculty": "4,187",
+            "Nondegree Students": "1,202",
+            "Graduate & Professional Students": "17,937",
+            "Undergraduate Students": "17,590"
+        },
+        "Campus": {
+            "Classrooms": "846",
+            "Buildings": "343",
+            "Laboratories": "1,495",
+            "Libraries": "13",
+            "Campus Area (acres)": "140"
+        },
+        "Academics": {
+            "Study Abroad Programs": "75+",
+            "Average Class Size": "30",
+            "Faculty": "4,187",
+            "Student/Faculty Ratio": "11:1",
+            "Schools and Colleges": "17",
+            "Programs of Study": "300+"
+        },
+        "Grant & Contract Awards": {
+            "Research Expenditures": "$630.7M",
+            "Research Awards": "$531.2M",
+            "BMC Clinical Research Grants (FY21)": "$110.0M"
+        },
+        "Undergraduate Financial Aid & Scholarships": {
+            "Average Total Need-Based Financial Aid": "$53,073",
+            "Average Need-Based Grant/Scholarship": "$48,604",
+            "Grants & Scholarships (need-based)": "$346.6M",
+            "Grants & Scholarships (non-need-based)": "$26.9M"
+        },
+        "Student Life": {
+            "Community Service Hours": "130,000+",
+            "Alternative Service Breaks Participants": "65+",
+            "BU on Social": "new accounts daily",
+            "Cultural & Religious Organizations": "80+",
+            "Community Service & Justice Organizations": "80+",
+            "Academic & Professional Organizations": "130+",
+            "Art & Performance Organizations": "60+",
+            "Student Organizations": "450+",
+            "First-Year Student Outreach Project Volunteers": "800+"
+        },
+        "Research": {
+            "Faculty Publications": "7,000+",
+            "Student UROP Participants": "450+",
+            "Centers & Institutes": "130+"
+        },
+        "International Community": {
+            "Global Initiatives": "300+",
+            "Cultural Student Groups": "60+",
+            "Alumni Countries": "180+",
+            "International Students": "10,000+"
+        },
+        "Athletics": {
+            "Intramural Sports & Tournaments": "12+",
+            "Club and Intramural Sports Participants": "7,000+",
+            "Club Sports": "34",
+            "Varsity Sports": "24"
+        }
+    }
+}

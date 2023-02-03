@@ -7,6 +7,14 @@
     <title>Web development in Python - Home</title>
 </head>
 <body>
-    <h1>Welcome to our Homepage</h1>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+    </ul>
+      <h1>Welcome to {{name}}</h1>
+       <ul>
+      {% for city in cities %}
+        <li>{{city}}</li>
+      {% endfor %}
 </body>
 </html>
